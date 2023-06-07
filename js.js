@@ -20,7 +20,7 @@ var awake = function(){
 
 var workEarly = function(){
   var input = prompt("You huddle in your raincoat and rush to your car, dreading the chit chat by the watercooler already");
-  alert ("mediocre ending")
+  alert ("You lived! (mediocre ending)")
 }
 
 var sitCouch = function(){
@@ -34,6 +34,20 @@ var sitCouch = function(){
   if (input.includes ("c")){
     workEarly()
   }
+}
+
+var investigate = function(){
+  var input = prompt ("You get up and cross the room to investigate, the shadows seeming to loom over you. Another thump, this time it sounds like it's coming from the front door. Do you a.) go open it, or b.) hide under the bed");
+  if (input.includes ("a")){
+    openDoor()
+  }
+  if (input.includes ("b")){
+    underBed()
+  }
+}
+
+var leaveAlone = function(){
+  var input = prompt ("You decide to leave whatever is over there the hell alone. You lay down once again, a foot dangling off the edge. It was too late by the time you felt claws wrap around your ankles, quickly pulling you into darkness.")
 }
 
 var snooze = function(){
