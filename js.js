@@ -19,7 +19,7 @@ var awake = function(){
 }
 
 var workEarly = function(){
-  var input = prompt("You huddle in your raincoat and rush to your car, dreading the shit chat by the watercooler already");
+  var input = prompt("You huddle in your raincoat and rush to your car, dreading the chit chat by the watercooler already");
   alert ("mediocre ending")
 }
 
