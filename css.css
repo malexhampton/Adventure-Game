@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  } 
+  /*source code from WebDevSimplified, used to select all the elements and make box sizing easier, see ReadMe for citation*/
+
+title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body {
+    align-items: center;
+    width: 200;
+    height: 200;
+}
+
+.box {
+    width: 900;
+    height: 900;
+}
