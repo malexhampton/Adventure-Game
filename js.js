@@ -48,4 +48,6 @@ var snooze = function(){
     leaveAlone()
   }
 }
+
+inside()
   
