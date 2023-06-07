@@ -10,13 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    background-color: cornflowerblue;
     background-image: url("https://images.unsplash.com/photo-1501691223387-dd0500403074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
   }
   
-  .container {
+  .box {
     width: 800px;
+    height: 650px;
     max-width: 80%;
     background-color: white;
     padding: 10px;
@@ -32,12 +32,11 @@
   }
   
   .btn {
-    background-color: hsl(200, 100%, 50%);
+    background-color: grey;
     border: 1px solid hsl(200, 100%, 30%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
-    outline: none;
+    color: black;
   }
   
   .btn:hover {
