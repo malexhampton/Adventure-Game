@@ -85,7 +85,11 @@ var underBed = function(){
 }
 
 var speak = function(){
-  alert ("")
+  alert ("You say, 'Hello?' in an almost whisper-quiet voice, but the intruder definitely heard. They pulled you by your ankles out of the bed, heard them asking where you kept your money before they slammed your head on the ground. (You died! bad ending)");
+}
+
+var hidden = function(){
+  alert ("You don't say anything, keeping your body firmly in place. The crashing of furniture bangs around you, melting in with the sounds of the storm. Eventually, having found nothing of value because you owned nothing of value, they left. You noticed their dirty boot prints all over the floor as you went out to your car. 45 minutes late to work, a write up, and stern talking to later, you almost miss this morning. (You lived! mediocre ending)");
 }
 
 var leaveAlone = function(){
