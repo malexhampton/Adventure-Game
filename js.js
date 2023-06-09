@@ -121,7 +121,7 @@ var getReady = function(){
 }
 
 var bangCeiling = function(){
-  
+  alert ("You grab the stick of your trusty, run-down broom and bang at the short ceiling. The noises stop, but now your ceiling has anice dent in it. You decide to just get ready, and head out, hopefully not too late to work. (You lived! mediocre ending)");
 }
 
 inside()
