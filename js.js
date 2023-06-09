@@ -120,5 +120,9 @@ var getReady = function(){
   }
 }
 
+var bangCeiling = function(){
+  
+}
+
 inside()
   
